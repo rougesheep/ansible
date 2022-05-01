@@ -3,6 +3,7 @@ zero
 zero2
 pi1
 pi2
+quincy
 
 [raspberries:vars]
 ansible_connection=ssh
