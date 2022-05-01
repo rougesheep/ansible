@@ -1,0 +1,9 @@
+[raspberries]
+zero
+zero2
+pi1
+pi2
+
+[raspberries:vars]
+ansible_connection=ssh
+ansible_user=pi

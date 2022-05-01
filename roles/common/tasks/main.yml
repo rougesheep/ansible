@@ -1,0 +1,20 @@
+---
+- name: Add SSH keys
+  ansible.builtin.authorized_key:
+    user: pi
+    key: "{{ item }}"
+  loop: "{{ public_keys }}"
+
+- name: Install packages
+  ansible.builtin.package:
+    name: "{{ packages }}"
+    state: present
+
+- name: Copy dotfiles
+  ansible.builtin.copy:
+    src: "{{ item }}"
+    dest: /home/pi/
+    owner: pi
+    group: pi
+    mode: 0644
+  with_fileglob: dotfiles/.*

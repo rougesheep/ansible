@@ -1,0 +1,5 @@
+---
+public_keys:
+  - "ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBACS3W36ag+kNW66fAiw9wHBZqDOEOfi6iF0PbfhBFO3oKoVQVDZP/T/mrCu+AgNKk8sqci9yRHoS5lT9QXFV6r8BAG9hit+/q5Gie2GszOfGX7aQfFhXByNzeHCK5emaMwUV85nQ+tn8kY/T4pXjb6p/ZmiYoq73IOkquv6hTTPNGEZCA== andy@Desktop"
+packages:
+  - vim
